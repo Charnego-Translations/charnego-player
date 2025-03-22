@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Charnego Player</title>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="images/charnegologo.png">
+		<link rel="stylesheet" href="charnegoplayer.css" />
+	</head>
+	<body>
+		<div style="width:100%;height:100%;max-width:100%" onclick="window.startmodal.close();">
+            <div id="player"></div>
+        </div>
+		<dialog id="loadingmodal">
+			<h2>Luadins...</h2>
+		</dialog>
+		<dialog id="startmodal" onclick="window.startmodal.close();">
+		   <h2>Juego cargado</h2>
+		   <p>¡A viciarse!</p>
+		   <button onclick="window.startmodal.close();">OK</button>
+		</dialog>
+		<script src="charnegoplayer.js"></script>
+        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+	</body>
+</html>
