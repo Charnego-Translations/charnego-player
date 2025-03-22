@@ -66,6 +66,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+body {
+	background-color: black;
+}
+
 dialog {
 	padding: 15px;
 	border-radius: 10px;
