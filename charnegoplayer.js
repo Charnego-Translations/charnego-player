@@ -29,6 +29,11 @@ const juegos = {
 		gameUrl : 'juegos/Tecmo Atleti.zip',
 		core : 'segaMD',
 	},
+	tecmoatleti2 : {
+		gameName : 'Tecmo Atleti 2.0',
+		gameUrl : 'juegos/Tecmo Atleti 2.0.zip',
+		core : 'segaMD',
+	},
 };
 			
 const juego = (new URLSearchParams(window.location.search)).get('juego');
